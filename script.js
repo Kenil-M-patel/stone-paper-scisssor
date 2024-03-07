@@ -6,6 +6,7 @@ let iteration = 0;
 function start() {
     let start = document.getElementById("starter");
     start.style.cssText = 'top : -135px; transform : scale(0.1) ;visibility:hidden';
+    event();
 
 }
 
@@ -127,10 +128,11 @@ function user() {
 let button = document.getElementsByClassName("button");
 
 
-
+function event(){
 for (var i = 0; i < 3; i++) {
 
 
     button[i].addEventListener("click", user);
 
+}
 }
