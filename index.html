@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>stone paper & scissor</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <div class="main">
+
+
+        <div class="human border">
+
+
+            <div class="title border"> Human</div>
+            <div class="star border">
+                <div class="onestar" id="h1"></div>
+                <div class="onestar" id="h2"></div>
+                <div class="onestar" id="h3"></div>
+            </div>
+
+
+            <div class="two border">
+                <div class="four border" id="four"></div>
+            </div>
+
+
+
+        </div>
+
+
+        <div class="vs border">
+            <div class="versis border"><img src="images\vs.png" alt=""></div>
+        </div>
+
+
+        <div class="computer border">
+            <div class="title border">Computer</div>
+            <div class="star border">
+                <div class="onestar" id="c1"></div>
+                <div class="onestar" id="c2"></div>
+                <div class="onestar" id="c3"></div>
+            </div>
+
+
+            <div class="pick border">
+                <center>
+                    <div class="select border" id="result"></div>
+                </center>
+            </div>
+        </div>
+
+
+        <div class="start" id="starter"><button type="button" onclick="start()" id="sbtn">start</button></div>
+
+        <div class="popup" id="popup">
+
+            <div class="result border" id="1"></div>
+            <br>
+            <button type="reset" onclick="window.location.reload();">restart</button>
+        </div>
+
+    </div>
+    <div class="three border">
+        <div class="sel">*select*</div>
+        <div class="five">
+
+            <button value="0" class="button"><img src="images\stone.png" alt=""></button>
+            <button value="1" class="button"><img src="images\scissor.png" alt=""></button>
+            <button value="2" class="button"><img src="images\paper.png" alt=""></button>
+
+        </div>
+    </div>
+
+</body>
+<script src="script.js">
+
+
+</script>
+
+</html>
